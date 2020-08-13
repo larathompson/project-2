@@ -23,8 +23,7 @@ const Search = () => {
       .then((data) => {
         updateArtistData(data.data)
         console.log(data.data)
-        console.log('helloagain')
-        console.log(data.data)
+      
       })
   }
 
@@ -60,7 +59,7 @@ const Search = () => {
       {artistData.map((album, index) => {
 
         return <div key={index} className="column is-one-third-desktop is-half-tablet is-half-mobile">
-          {/* 1) We create a link that has the cheese ID in it for each cheese */}
+          {/* 1) We create a link that has the album ID in it for each cheese */}
           <Link to={`/search/${album.id}`}>
             <div className="card">
               <div className="card-content">
