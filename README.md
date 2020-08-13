@@ -71,12 +71,12 @@ Once we had the albums that related to the searched artist, we saved them in sta
 
 To display all of the albums related to an artist, we mapped over the `artistsData`, displaying the album title and the cover and utilising the imported React Router link to allow the user to go to the `songs` component and see the tracks in each album. 
 
-![displayAlbums](../display.png)
+![displayAlbums](display.png)
 
 
 ## Songs page
 
-![searchPage](../tracks.png)
+![searchPage](tracks.png)
 
 When the user clicked on the album card they are redirected to the songs page - this is where the songs in each album are displayed. In order to pass information between the `search` and the `songs` component, we passed in `props`. 
 
