@@ -24,7 +24,6 @@ The app had to:
 
 - React
 - SCSS
-- HTML
 - GitHub
 - Babel
 - Webpack
