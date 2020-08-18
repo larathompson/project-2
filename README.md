@@ -37,7 +37,7 @@ After setting up the app, using ES6 class syntax, we created the components need
 
 ## Search Page
 
-![searchPage](../search.png)
+![searchPage](search.png)
 
 In order to store the relevant property values to the Search component, I used the `useState` React hook to store the `query` (users search) and also to store the `artistData` (the playlists that correspond to that). To do this, we used a form to gather the information that was inputted by the user. When the form was submitted, we saved the query (`setQuery`) and this query was then used in the `getArtists` function where we passed in the query search into the function as props.
 
