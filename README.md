@@ -22,12 +22,14 @@ The app had to:
 
 # Technologies Used
 
-- React
+- React.js
 - SCSS
 - GitHub
 - Babel
 - Webpack
 - Bulma 
+- Insomnia
+- Public API - Deezer
 
 # Approach 
 
