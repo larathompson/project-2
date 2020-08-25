@@ -32,6 +32,7 @@ const Search = () => {
   function handleChange(event) {
     console.log(event.target.value)
     setQuery(event.target.value)
+    console.log('query' + query)
   }
 
   function handleSubmit(event) {
